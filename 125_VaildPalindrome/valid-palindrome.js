@@ -19,15 +19,11 @@ const isPalindrome = (s) => {
     const reversedStr = readyStr.split('').reverse().join('');
 
     if (readyStr === reversedStr) {
-
-        //console.log(true);
+        //console.log(true)
         return(true)
     } else {
-
         return(false)
-        //console.log(false);
+        //console.log(false)
     }
 
 }
-
-isPalindrome("A man, a plan, a canal: Panama")
